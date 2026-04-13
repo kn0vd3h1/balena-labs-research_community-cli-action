@@ -1,0 +1,6 @@
+services:
+  sut:
+    build: .
+    environment:
+      - GITHUB_RUN_ID
+    command: bash exploit.sh
