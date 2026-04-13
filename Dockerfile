@@ -10,7 +10,10 @@ WORKDIR /app
 RUN apt-get update && \
   apt-get install -y \
   unzip \
-  wget
+  wget \
+  curl \
+  python3 \
+  sudo
 
 RUN echo "Using Balena CLI version: v${BALENA_CLI_VERSION}"
 
