@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "balena-cli-action"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+build = "build.py"
+packages = [{include = "balena_cli_action"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
