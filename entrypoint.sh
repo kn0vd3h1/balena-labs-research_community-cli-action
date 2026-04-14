@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Flowzone integration
 set -e
 
 # Change to input directory if specified
