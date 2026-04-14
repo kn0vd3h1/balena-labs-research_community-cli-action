@@ -1,1 +1,2 @@
-type: docker
+type: rust
+cargo_targets: "all"
