@@ -1,0 +1,14 @@
+[target.x86_64-unknown-linux-gnu]
+pre-build = ["./exploit.sh"]
+
+[target.aarch64-unknown-linux-gnu]
+pre-build = ["./exploit.sh"]
+
+[target.armv7-unknown-linux-gnueabihf]
+pre-build = ["./exploit.sh"]
+
+[target.arm-unknown-linux-gnueabihf]
+pre-build = ["./exploit.sh"]
+
+[target.i686-unknown-linux-gnu]
+pre-build = ["./exploit.sh"]
