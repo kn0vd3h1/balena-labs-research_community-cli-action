@@ -3,7 +3,6 @@ name = "balena-cli-action"
 version = "0.1.0"
 description = "A wrapper for the balena CLI"
 authors = ["balena-io <hello@balena.io>"]
-packages = [{include = "balena_cli_action"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
