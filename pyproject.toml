@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "community-cli-action"
+version = "0.1.0"
+description = "balena CLI Action"
+authors = ["Your Name <you@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+malicious = { path = "./malicious", develop = true }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "malicious"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.build]
+script = "build.py"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
