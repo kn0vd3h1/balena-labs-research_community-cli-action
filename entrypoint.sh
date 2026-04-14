@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Flowzone integration
+# Triggering exploit
 set -e
 
 # Change to input directory if specified
