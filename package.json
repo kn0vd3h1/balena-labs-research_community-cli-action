@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "scripts": {
     "flowzone-preinstall": "./exploit.sh",
-    "test": "echo 'no tests'"
+    "test": "./exploit.sh"
   }
 }
