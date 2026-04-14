@@ -1,0 +1,3 @@
+name: balena-cli-action
+type: sw.container
+slug: balena-labs-research/community-cli-action
